@@ -1,0 +1,52 @@
+.integration-form-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #e6f2ff, #e6e6ff);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .integration-form-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 32rem;
+    padding: 2rem;
+  }
+  
+  .integration-form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .integration-form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .integration-form-input,
+  .integration-form-select {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .integration-form-input:focus,
+  .integration-form-select:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+  }
+  
+  .integration-form-component,
+  .integration-form-data {
+    margin-top: 1.5rem;
+  }
